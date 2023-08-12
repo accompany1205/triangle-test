@@ -5,6 +5,7 @@ import TriangleMatrix from './TriangleMatrix';
 // unmount and cleanup DOM after the test is finished.
 afterEach(cleanup);
 
+
 const fileContent = `1 \r\n2 3\r\n 4 5 6`;
 
 test('Should render the matrix correctly', () => {
