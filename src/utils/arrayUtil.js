@@ -18,7 +18,7 @@ export function parseContent(fileContent) {
     const newTriangle = [];
     for (let row of rows) {
         let rowArray = [];
-        const tempArray = row.replace('/\s/g', ' ').split(' ');
+        const tempArray = row.split(' ');
         for (let ele of tempArray) {
             if (Number(ele) >= 0 && ele.length > 0) {
                 rowArray.push(Number(ele));
